@@ -1,0 +1,63 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    height: 350px;
+  }
+  .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+  }
+  
+  .contact h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #171515;
+  }
+  
+  .icons a {
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px;
+    width: 150px;
+    height: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+    transition: background-position 0.5s, color 0.5s;
+  }
+  
+  .icons a:nth-child(1) {
+    color: #0072b1;
+    background-image: linear-gradient(#fff 50%, #0072b1 50%);
+  }
+  
+  .icons a:nth-child(2) {
+    color: #8a3ab9;
+    background-image: linear-gradient(#fff 50%, #8a3ab9 50%);
+  }
+  
+  .icons a:nth-child(3) {
+    color: #171515;
+    background-image: linear-gradient(#fff 50%, #171515 50%);
+  }
+  
+  .icons a:nth-child(4) {
+    color: #03a9f5;
+    background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+  }
+  
+  .icons a:hover {
+    background-position: 0% 100%;
+    color: white;
+  }

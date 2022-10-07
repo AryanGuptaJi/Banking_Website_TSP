@@ -1,0 +1,47 @@
+.about
+{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    color: #21252a;
+}
+
+.about h1
+{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about p
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 50px auto;
+}
+
+.about p span
+{
+    font-weight: 700;
+    word-spacing: 3px;
+    border-bottom: 2.5px dashed #000;
+}
+
+.about .img
+{
+    margin: 10px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.about .img img
+{
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 0 10px #000;
+}
